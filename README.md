@@ -58,12 +58,10 @@ Online Order Bill Calculator System/
 
 The app screenshots are available in the `images/` folder:
 
-- `images/Screenshot (42).png`
-- `images/Screenshot (43).png`
 
-![Order Form](images/Screenshot (42).png)
+![Order Form](images/input.png)
 
-![Bill Result](images/Screenshot (43).png)
+![Bill Result](images/output.png)
 
 ---
 
