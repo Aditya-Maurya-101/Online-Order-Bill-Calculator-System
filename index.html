@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Bill Calculator</title>
+    <style>
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            margin:0;
+            font-family:Arial, sans-serif;
+        }
+        .container{
+           border:1px solid #292727;
+           width:400px;
+           height:250px;
+           padding:20px;
+           justify-content:center;
+              align-items:center;
+              text-align:center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Order Bill Calculator</h2>
+
+    <form method="post" action="bill_calculator.php">
+
+        Enter Order Amount:
+        <input type="number" name="a1" required>
+        <br><br>
+
+        Select Delivery Mode:
+        <input type="radio" name="a2" value="Standard" required> Standard
+        <input type="radio" name="a2" value="Express"> Express
+        <br><br>
+
+        <input type="submit" value="Calculate Bill">
+
+    </form>
+</div>
+
+</body>
+</html>
